@@ -13,3 +13,9 @@
 
 **Cel:** Sprawdzić, czy aplikacja ma krótszy czas odpowiedzi niż 2 sekundy przy dostępie do plików.
 **Powiązane wymaganie:** REQ-FUNC-06
+
+---
+
+### TC-PER-03: Weryfikacja czasu generowania miniatur
+**Cel:** Sprawdzić, czy aplikacja generuje miniatury dla różnych typów plików (np. obrazów, dokumentów) w czasie nieprzekraczającym 3 sekund.  
+**Powiązane wymaganie:** REQ-NFUNC-10
