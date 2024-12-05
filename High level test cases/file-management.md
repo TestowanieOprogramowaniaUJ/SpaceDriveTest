@@ -35,3 +35,31 @@
 ### TC-FILE-MGMT-06: Weryfikacja wydajności aplikacji przy dużych wolumenach danych
 **Cel:** Sprawdzić, czy aplikacja zachowuje wydajność przy obsłudze dużej ilości danych.  
 **Powiązane wymaganie:** REQ-NFUNC-05  
+
+---
+
+### TC-FILE-MGMT-07: Weryfikacja szyfrowania katalogów hasłem
+**Cel:** Sprawdzić czy użytkownicy mają możliwość szyfrowania i odszyfrowania katalogów hasłem i kompatybilność z szyfrowanymi plikami z innych aplikacji.
+  
+**Powiązane wymaganie:** REQ-FUNC-11
+
+---
+
+### TC-FILE-MGMT-07: Weryfikacja przesyłania plików między urządzeniami
+**Cel:** Sprawdzić czy urządzenia mogą przesyłać między sobą pliki.
+  
+**Powiązane wymaganie:** REQ-FUNC-12
+
+---
+
+### TC-FILE-MGMT-08: Weryfikacja synchronizacji plików między urządzenimai
+**Cel:** Sprawdzić czy połączone razem urządzenia synchronizują między sobą wszystkie wybrane pliki i zmierzyć jaki jest czas opóźnienia synchronizacji.
+  
+**Powiązane wymaganie:** REQ-FUNC-09
+
+---
+
+### TC-FILE-MGMT-09: Weryfikacja integracji kont chumrowych
+**Cel:** Sprawdzić czy aplikacja umożliwia poprawne zalogowanie do serwisów churowych oraz czy umożliwia odczytawnie oraz zapis pojedynczych jak i wielu plików.
+  
+**Powiązane wymaganie:** REQ-FUNC-09
