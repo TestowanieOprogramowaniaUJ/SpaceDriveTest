@@ -62,4 +62,4 @@
 ### TC-FILE-MGMT-09: Weryfikacja integracji kont chumrowych
 **Cel:** Sprawdzić czy aplikacja umożliwia poprawne zalogowanie do serwisów churowych oraz czy umożliwia odczytawnie oraz zapis pojedynczych jak i wielu plików.
   
-**Powiązane wymaganie:** REQ-FUNC-09
+**Powiązane wymaganie:** REQ-FUNC-10
