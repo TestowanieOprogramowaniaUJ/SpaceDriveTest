@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/f54ba523-12c1-4c7e-b5ed-203acedcea84)# Zarządzanie plikami i bibliotekami
+![image](https://github.com/user-attachments/assets/f54ba523-12c1-4c7e-b5ed-203acedcea84)  
+# Zarządzanie plikami i bibliotekami
 
 ---
 
