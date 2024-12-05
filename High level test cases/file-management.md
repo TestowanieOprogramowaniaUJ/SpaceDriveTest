@@ -1,4 +1,4 @@
-# Zarządzanie plikami i bibliotekami
+![image](https://github.com/user-attachments/assets/f54ba523-12c1-4c7e-b5ed-203acedcea84)# Zarządzanie plikami i bibliotekami
 
 ---
 
@@ -63,3 +63,10 @@
 **Cel:** Sprawdzić czy aplikacja umożliwia poprawne zalogowanie do serwisów churowych oraz czy umożliwia odczytawnie oraz zapis pojedynczych jak i wielu plików.
   
 **Powiązane wymaganie:** REQ-FUNC-10
+
+---
+
+### TC-FILE-MGMT-10: Weryfikacja spójności danych
+**Cel:** Sprawdzić czy aplikacja poprawnie synchronizuje edycję tego samego pliku przez wiele udządzeń i czy nie pozostawia unsuniętch plików.
+  
+**Powiązane wymaganie:** REQ-NFUNC-09
