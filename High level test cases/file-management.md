@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/f54ba523-12c1-4c7e-b5ed-203acedcea84)  
 # Zarządzanie plikami i bibliotekami
 
 ---
@@ -36,38 +35,3 @@
 ### TC-FILE-MGMT-06: Weryfikacja wydajności aplikacji przy dużych wolumenach danych
 **Cel:** Sprawdzić, czy aplikacja zachowuje wydajność przy obsłudze dużej ilości danych.  
 **Powiązane wymaganie:** REQ-NFUNC-05  
-
----
-
-### TC-FILE-MGMT-07: Weryfikacja szyfrowania katalogów hasłem
-**Cel:** Sprawdzić czy użytkownicy mają możliwość szyfrowania i odszyfrowania katalogów hasłem i kompatybilność z szyfrowanymi plikami z innych aplikacji.
-  
-**Powiązane wymaganie:** REQ-FUNC-11
-
----
-
-### TC-FILE-MGMT-08: Weryfikacja przesyłania plików między urządzeniami
-**Cel:** Sprawdzić czy urządzenia mogą przesyłać między sobą pliki.
-  
-**Powiązane wymaganie:** REQ-FUNC-12
-
----
-
-### TC-FILE-MGMT-09: Weryfikacja synchronizacji plików między urządzenimai
-**Cel:** Sprawdzić czy połączone razem urządzenia synchronizują między sobą wszystkie wybrane pliki i zmierzyć jaki jest czas opóźnienia synchronizacji.
-  
-**Powiązane wymaganie:** REQ-FUNC-09
-
----
-
-### TC-FILE-MGMT-10: Weryfikacja integracji kont chumrowych
-**Cel:** Sprawdzić czy aplikacja umożliwia poprawne zalogowanie do serwisów churowych oraz czy umożliwia odczytawnie oraz zapis pojedynczych jak i wielu plików.
-  
-**Powiązane wymaganie:** REQ-FUNC-10
-
----
-
-### TC-FILE-MGMT-11: Weryfikacja spójności danych
-**Cel:** Sprawdzić czy aplikacja poprawnie synchronizuje edycję tego samego pliku przez wiele udządzeń i czy nie pozostawia unsuniętch plików.
-  
-**Powiązane wymaganie:** REQ-NFUNC-09
