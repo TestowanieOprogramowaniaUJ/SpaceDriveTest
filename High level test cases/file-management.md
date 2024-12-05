@@ -45,28 +45,28 @@
 
 ---
 
-### TC-FILE-MGMT-07: Weryfikacja przesyłania plików między urządzeniami
+### TC-FILE-MGMT-08: Weryfikacja przesyłania plików między urządzeniami
 **Cel:** Sprawdzić czy urządzenia mogą przesyłać między sobą pliki.
   
 **Powiązane wymaganie:** REQ-FUNC-12
 
 ---
 
-### TC-FILE-MGMT-08: Weryfikacja synchronizacji plików między urządzenimai
+### TC-FILE-MGMT-09: Weryfikacja synchronizacji plików między urządzenimai
 **Cel:** Sprawdzić czy połączone razem urządzenia synchronizują między sobą wszystkie wybrane pliki i zmierzyć jaki jest czas opóźnienia synchronizacji.
   
 **Powiązane wymaganie:** REQ-FUNC-09
 
 ---
 
-### TC-FILE-MGMT-09: Weryfikacja integracji kont chumrowych
+### TC-FILE-MGMT-10: Weryfikacja integracji kont chumrowych
 **Cel:** Sprawdzić czy aplikacja umożliwia poprawne zalogowanie do serwisów churowych oraz czy umożliwia odczytawnie oraz zapis pojedynczych jak i wielu plików.
   
 **Powiązane wymaganie:** REQ-FUNC-10
 
 ---
 
-### TC-FILE-MGMT-10: Weryfikacja spójności danych
+### TC-FILE-MGMT-11: Weryfikacja spójności danych
 **Cel:** Sprawdzić czy aplikacja poprawnie synchronizuje edycję tego samego pliku przez wiele udządzeń i czy nie pozostawia unsuniętch plików.
   
 **Powiązane wymaganie:** REQ-NFUNC-09
