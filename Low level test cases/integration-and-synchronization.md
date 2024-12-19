@@ -19,3 +19,21 @@ Powiązane wymaganie: REQ-FUNC-09
 ### Oczekiwane wyniki:
 - na wszystkich urządzeniach są te same pliki (oprócz systemowych)
 - nie nadpisuje plików
+
+---
+
+### TC-INTEG-SYNC-05: Weryfikacja integralności danych podczas transferu
+**Cel:** Sprawdzić, czy dane przesyłane między urządzeniami są poprawnie przesyłane bez uszkodzeń.  
+**Powiązane wymaganie:** REQ-NFUNC-03
+
+### Wymagania wstępne:
+- plik o rozmiarze > 100 MB.
+- katalog z 20 plikami o małym rozmiarze
+
+### Kroki:
+1. Połącz urządzenia
+2. prześlij pliki między urządzeniami (w 2. strony)
+3. zmień nazwę i prześlij pliki na jedno urządzenie za pomocą innego transferu (np.google drive)
+4. sprawdź czy pliki są identyczne
+### Oczekiwane wyniki:
+- pliki ze wszystkich urządzeń są identyczne
