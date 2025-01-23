@@ -3,7 +3,7 @@
 ---
 
 ### TC-FILE-MGMT-01: Weryfikacja możliwości przeglądania i organizacji plików
-**Cel:** Sprawdzić, czy użytkownik może przeglądać, organizować i zarządzać plikami na wielu urządzeniach.  
+**Cel:** Sprawdzić, czy użytkownik może przeglądać, organizować i zarządzać plikami, wykonując operacje takie jak kopiowanie, przenoszenie, zmiana nazw oraz tworzenie folderów. Dodatkowo, zweryfikować możliwość wykonywania tych działań na różnych urządzeniach, uwzględniając synchronizację plików między urządzeniami oraz działanie offline.
 **Powiązane wymaganie:** REQ-FUNC-01  
 
 ---
