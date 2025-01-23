@@ -34,7 +34,7 @@ Celem niniejszego planu testów jest zdefiniowanie podejścia, zasobów, harmono
 
 ## 7. Pass/Fail Criteria  
 - **Pass**:  
-  - Funkcjonalność osiąga co najmniej 95% skuteczności w testach.  
+  - Funkcjonalność osiąga co najmniej 95% poprawnie przeprowadzonych testach.  
   - Zużycie zasobów CPU i RAM podczas testów nie przekracza 50% (na standardowym urządzeniu określonym jako procesor o 4 rdzeniach, 8 GB RAM, dysk SSD).
 - **Fail**:  
   - Więcej niż 2 krytyczne defekty pozostają niewyjaśnione.  
