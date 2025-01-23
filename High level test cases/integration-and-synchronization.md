@@ -9,7 +9,7 @@
 ---
 
 ### TC-INTEG-SYNC-02: Weryfikacja czasu opóźnienia synchronizacji
-**Cel:** Sprawdzić, jaki jest czas opóźnienia synchronizacjii plików między urządzeniami.  
+**Cel:** Sprawdzić, jaki jest czas opóźnienia synchronizacji plików między urządzeniami. Za akceptowalne opóźnienie uznaje się czas nieprzekraczający 5 sekund przy stabilnym połączeniu internetowym.
 **Powiązane wymaganie:** REQ-FUNC-09
 
 ---
