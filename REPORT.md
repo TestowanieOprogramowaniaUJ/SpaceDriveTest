@@ -1,5 +1,6 @@
-# Raport z Testów Aplikacji Spacedrive
+![logo](https://github.com/user-attachments/assets/5acd29fe-498a-4095-a053-6ca493813a8b)
 
+# Raport z Testów Aplikacji Spacedrive
 ## 1. Wprowadzenie
 Testy aplikacji **Spacedrive** miały na celu weryfikację funkcjonalności, wydajności, kompatybilności oraz zgodności z wymaganiami bezpieczeństwa. Testy obejmowały zarówno przypadki wysokopoziomowe (**High-Level Test Cases**), jak i szczegółowe przypadki niskopoziomowe (**Low-Level Test Cases**).
 
@@ -152,10 +153,6 @@ Oprócz przypadków testowych zidentyfikowano następujące problemy:
 - **Liczba testów**: 26  
 - **Testy pozytywne**: 21  
 - **Testy negatywne**: 5  
-
-### Krytyczne problemy:
-- **TC-SEC-PRIV-01**: Brak uzyskiwania uprawnień dostępu do plików.
-- Dodatkowe błędy związane z zarządzaniem folderami, tagami i informacjami o rozmiarze folderów.
 
 ---
 
