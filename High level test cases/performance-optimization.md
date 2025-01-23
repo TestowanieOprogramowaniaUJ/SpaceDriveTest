@@ -11,7 +11,7 @@
 
 ### TC-PER-02: Sprawdzić czy aplikacja ma krótki czas odpowiedzi
 
-**Cel:** Sprawdzić, czy aplikacja ma krótszy czas odpowiedzi niż 2 sekundy przy dostępie do plików.
+**Cel:** Sprawdzić, czy aplikacja ma krótszy czas odpowiedzi niż 2 sekundy przy dostępie do plików.  
 **Powiązane wymaganie:** REQ-FUNC-06
 
 ---
@@ -23,7 +23,7 @@
 ---
 
 ### TC-PER-04: Weryfikacja czasu interakcji
-**Cel:** Sprawdzić, czy aplikacja jest responsywna i czy wszystkie interakcje użytkownika (np. przeglądanie plików, nawigacja) powinny odbywać się bez zauważalnych opóźnień, nieprzekraczających 200 ms.
+**Cel:** Sprawdzić, czy aplikacja jest responsywna i czy wszystkie interakcje użytkownika (np. przeglądanie plików, nawigacja) powinny odbywać się bez zauważalnych opóźnień, nieprzekraczających 200 ms.  
 **Powiązane wymaganie:** REQ-NFUNC-08
 
 
