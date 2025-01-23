@@ -78,7 +78,7 @@ Przeprowadzone testy objęły następujące obszary:
 #### TC-FILE-MGMT-02
 - **Opis problemu**: 
   - Udało się stworzyć system folderów według schematu.
-  - Dodałem tag do `file3`.
+  - Dodano tag do `file3`.
   - Nie udało się dodać folderu do paska — błąd: **"Not supported nested folders"**.
   - Folder `folder1` udało się usunąć przez SpaceDrive.
   - Folder `folder2` nie mógł zostać usunięty, dopóki aplikacja SpaceDrive nie została zamknięta.
