@@ -15,7 +15,7 @@
 ---
 
 ### TC-INTEG-SYNC-03: Weryfikacja integracji kont chmurowych
-Cel: Sprawdzić, czy aplikacja umożliwia poprawne logowanie do usług chmurowych i zarządzanie plikami.  
+**Cel:** Sprawdzić, czy aplikacja umożliwia poprawne logowanie do usług chmurowych i zarządzanie plikami.  
 **Powiązane wymaganie:** REQ-FUNC-10
 
 ---
