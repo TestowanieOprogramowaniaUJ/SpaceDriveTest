@@ -23,7 +23,7 @@
 ---
 
 ### TC-PER-04: Weryfikacja czasu interakcji
-**Cel:** Sprawdzić, czy aplikacja jest responsywna i czy wszystkie interakcje użytkownika (np. przeglądanie plików, nawigacja) powinny odbywać się bez zauważalnych opóźnień, nieprzekraczających 200 ms.  
+**Cel:** Sprawdzić, czy aplikacja jest responsywna i czy wszystkie interakcje użytkownika (np. przeglądanie plików, nawigacja) odbywają się bez zauważalnych opóźnień, nieprzekraczających 200 ms.  
 **Powiązane wymaganie:** REQ-NFUNC-08
 
 
