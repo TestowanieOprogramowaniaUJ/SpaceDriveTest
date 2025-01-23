@@ -25,11 +25,13 @@ Zrób to samo dla przenieś do kosza
 ## Oczekiwanie działanie:
 Wszystkie tworzą się porawnie i po usunięciu pliki są nie widoczne
 
+---
+
 ### TC-FILE-MGMT-03: Weryfikacja funkcji wyszukiwania i filtrowania plików  
 **Cel:** Sprawdzić, czy użytkownicy mogą wyszukiwać i filtrować pliki według typu, daty oraz rozmiaru, a także sortować wyniki w kolejności rosnącej i malejącej dla wszystkich kategorii.  
 **Powiązane wymaganie:** REQ-FUNC-05  
 
----
+
 
 ## Kroki:  
 
@@ -70,7 +72,7 @@ Wszystkie tworzą się porawnie i po usunięciu pliki są nie widoczne
    - Sortuj wyniki według daty utworzenia (rosnąco).  
    - Zweryfikuj, czy wszystkie warunki są spełnione.  
 
----
+
 
 ## Oczekiwane działanie:  
 1. **Wyszukiwanie:**  
@@ -85,4 +87,47 @@ Wszystkie tworzą się porawnie i po usunięciu pliki są nie widoczne
 
 4. **Kombinacja funkcji:**  
    - Wszystkie kombinacje wyszukiwania, filtrowania i sortowania działają poprawnie i zwracają odpowiednie wyniki.  
+---
+
+
+### TC-FILE-MGMT-04: Weryfikacja funkcji ulubionych plików  
+**Cel:** Sprawdzić, czy użytkownik może dodawać pliki do listy ulubionych i czy aplikacja poprawnie wyświetla tę listę.  
+**Powiązane wymaganie:** REQ-FUNC-13  
+
+---
+
+## Kroki:  
+
+1. **Przygotowanie plików:**  
+   Utwórz poniższą strukturę plików:  
+   ```
+   |- folder1/file1.txt  
+   |- folder1/file2.pdf  
+   |- folder2/file3.jpg  
+   |- folder2/file4.docx  
+   ```
+
+2. **Dodawanie plików do ulubionych:**  
+   - Dodaj „file1.txt” i „file3.jpg” do listy ulubionych.  
+   - Sprawdź, czy pliki są widoczne na liście ulubionych.  
+
+3. **Usuwanie plików z ulubionych:**  
+   - Usuń „file1.txt” z ulubionych.  
+   - Sprawdź, czy plik został usunięty z listy ulubionych, ale pozostaje widoczny w głównej strukturze plików.  
+
+4. **Dodanie plików spoza ulubionych:**  
+   - Dodaj „file4.docx” do ulubionych.  
+   - Zweryfikuj, czy pojawił się na liście ulubionych.  
+
+5. **Weryfikacja stanu listy ulubionych:**  
+   - Zaktualizuj widok aplikacji (np. przez odświeżenie) i sprawdź, czy lista ulubionych pozostaje poprawna.  
+   - Sprawdź, czy lista ulubionych zachowuje się poprawnie po ponownym uruchomieniu aplikacji.  
+
+---
+
+## Oczekiwane działanie:  
+1. Pliki poprawnie dodają się do listy ulubionych.  
+2. Usunięcie plików z ulubionych nie powoduje ich usunięcia z głównej struktury plików.  
+3. Lista ulubionych jest aktualizowana w czasie rzeczywistym i zapamiętywana po ponownym uruchomieniu aplikacji.  
+
 
