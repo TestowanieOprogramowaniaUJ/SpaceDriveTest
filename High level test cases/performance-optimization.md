@@ -11,7 +11,7 @@
 
 ### TC-PER-02: Sprawdzić czy aplikacja ma krótki czas odpowiedzi
 
-**Cel:** Sprawdzić, czy aplikacja ma krótszy czas odpowiedzi niż 2 sekundy przy dostępie do plików.  
+**Cel:** Sprawdzić, czy aplikacja ma krótszy czas odpowiedzi niż 2 sekundy przy wyświetlaniu zawartośći folderu po jego otwarciu.  
 **Powiązane wymaganie:** REQ-FUNC-06
 
 ---
