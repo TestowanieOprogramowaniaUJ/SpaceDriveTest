@@ -5,7 +5,20 @@ Testy aplikacji **Spacedrive** miały na celu weryfikację funkcjonalności, wyd
 
 ---
 
-## 2. Zakres Testów
+## 2. Zespół
+
+![squad](https://github.com/user-attachments/assets/2e0ce7e9-10c4-40c6-b4f3-0a8f9701dc64)  
+  
+  
+### 2.1 Zakres obowiązków
+- **Michał Skrobot**: 
+- **Imię Nazwisko**: 
+- **Imię Nazwisko**:
+- **Imię Nazwisko**:
+
+---
+
+## 3. Zakres Testów
 Przeprowadzone testy objęły następujące obszary:
 - **Zarządzanie plikami**: kopiowanie, przenoszenie, zmiana nazw, tworzenie folderów.
 - **Synchronizacja i integracja**: transfer danych między urządzeniami, synchronizacja w czasie rzeczywistym, integracja z usługami chmurowymi.
@@ -14,8 +27,8 @@ Przeprowadzone testy objęły następujące obszary:
 
 ---
 
-## 3. Wyniki Testów
-### 3.1 Przypadki Testowe
+## 4. Wyniki Testów
+### 4.1 Przypadki Testowe
 
 #### Zarządzanie plikami
 | ID Testu              | Wynik        |
@@ -65,7 +78,7 @@ Przeprowadzone testy objęły następujące obszary:
 
 ---
 
-### 3.2 Problemy Znalezione w Przypadkach Testowych
+### 4.2 Problemy Znalezione w Przypadkach Testowych
 
 #### TC-SEC-PRIV-01
 - **Opis problemu**: 
@@ -111,7 +124,7 @@ Przeprowadzone testy objęły następujące obszary:
 
 ---
 
-### 3.3 Dodatkowe Problemy Wykryte Podczas Testów
+### 4.3 Dodatkowe Problemy Wykryte Podczas Testów
 Oprócz przypadków testowych zidentyfikowano następujące problemy:
 1. **Problemy z usuwaniem folderów po ich przeglądaniu w SpaceDrive**:  
    - Folderów przeglądanych w aplikacji nie można usunąć (nawet jeśli nie są otwarte w innej aplikacji) do momentu zamknięcia okna SpaceDrive.
@@ -128,7 +141,7 @@ Oprócz przypadków testowych zidentyfikowano następujące problemy:
 
 ---
 
-## 4. Podsumowanie
+## 5. Podsumowanie
 ### Wyniki:
 - **Liczba testów**: 26  
 - **Testy pozytywne**: 21  
@@ -140,6 +153,6 @@ Oprócz przypadków testowych zidentyfikowano następujące problemy:
 
 ---
 
-## 5. Wnioski
+## 6. Wnioski
 Testy aplikacji **Spacedrive** w większości zakończyły się sukcesem, potwierdzając poprawne działanie kluczowych funkcjonalności, takich jak synchronizacja, zarządzanie plikami oraz responsywność interfejsu. Wykryte problemy powinny zostać priorytetowo naprawione, aby poprawić zgodność aplikacji z wymaganiami użytkowników oraz standardami bezpieczeństwa.
 
