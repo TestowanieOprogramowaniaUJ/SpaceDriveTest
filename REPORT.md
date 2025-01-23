@@ -21,7 +21,7 @@ Przeprowadzone testy objęły następujące obszary:
 | ID Testu              | Wynik        |
 |-----------------------|-------------|
 | TC-FILE-MGMT-01       | ✅ Pozytywny |
-| TC-FILE-MGMT-02       | ✅ Pozytywny |
+| TC-FILE-MGMT-02       | ❌ Negatywny |
 | TC-FILE-MGMT-03       | ✅ Pozytywny |
 | TC-FILE-MGMT-04       | ✅ Pozytywny |
 | TC-FILE-MGMT-05       | ✅ Pozytywny |
@@ -58,39 +58,81 @@ Przeprowadzone testy objęły następujące obszary:
 | ID Testu              | Wynik        |
 |-----------------------|-------------|
 | TC-UIUX-01            | ✅ Pozytywny |
-| TC-UIUX-02            | ✅ Pozytywny |
-| TC-UIUX-03            | ✅ Pozytywny |
-| TC-UIUX-04            | ✅ Pozytywny |
+| TC-UIUX-02            | ❌ Negatywny |
+| TC-UIUX-03            | ❌ Negatywny |
+| TC-UIUX-04            | ❌ Negatywny |
 | TC-UIUX-05            | ✅ Pozytywny |
 
 ---
 
-### 3.2 Dodatkowe Problemy Wykryte Podczas Testów
+### 3.2 Problemy Znalezione w Przypadkach Testowych
+
+#### TC-SEC-PRIV-01
+- **Opis problemu**: 
+  - Aplikacja nie wyświetla komunikatu o braku uprawnień do plików/folderów ani nie prosi o uzyskanie dostępu.  
+  - Brak informacji o braku dostępu do folderów powoduje, że użytkownik nie wie, dlaczego foldery są niewidoczne lub nie można ich otworzyć.
+
+- **Notatki**:
+  - Dla folderów z ograniczonymi uprawnieniami aplikacja nie wyświetla żadnego komunikatu ostrzegawczego ani prośby o dostęp.  
+
+#### TC-FILE-MGMT-02
+- **Opis problemu**: 
+  - Udało się stworzyć system folderów według schematu.
+  - Dodałem tag do `file3`.
+  - Nie udało się dodać folderu do paska — błąd: **"Not supported nested folders"**.
+  - Folder `folder1` udało się usunąć przez SpaceDrive.
+  - Folder `folder2` nie mógł zostać usunięty, dopóki aplikacja SpaceDrive nie została zamknięta.
+  - Po zamknięciu SpaceDrive wszystkie foldery zostały poprawnie usunięte.
+
+- **Notatki**:
+  - Po przeglądaniu foldera w SpaceDrive, nie można go usunąć (nawet jeśli nie jest otwarty w żadnej aplikacji) do momentu zamknięcia okna SpaceDrive.
+
+#### TC-UIUX-02
+- **Opis problemu**: 
+  - Drag & Drop między folderami nie działa poprawnie.  
+  - **Próba przeniesienia plików między folderami**:
+    - Nie można przeciągnąć pliku poza aktualne okno aplikacji.
+  - **Próba przeniesienia wielu plików**:
+    - Podczas zaznaczenia kilku plików, przenoszony jest tylko pierwszy zaznaczony plik.
+  - Pliki nie zostały przeniesione do nowej lokalizacji.
+
+- **Notatki**:
+  - Funkcja Drag & Drop pomiędzy folderami i urządzeniami wymaga poprawy.  
+
+#### TC-UIUX-03
+- **Opis problemu**: 
+  - Funkcja Drag & Drop z innych aplikacji do SpaceDrive nie działa.  
+  - Przeciągnięcie pliku z eksploratora systemowego do SpaceDrive kończy się niepowodzeniem — plik nie pojawia się w docelowej lokalizacji.
+
+#### TC-UIUX-04
+- **Opis problemu**: 
+  - Responsywność interfejsu jest ogólnie poprawna, ale po zmniejszeniu szerokości okna niektóre przyciski stają się niewidoczne (np. przycisk zamknięcia okna).  
+  - Przy minimalnych rozmiarach okno aplikacji jest użyteczne, ale brak widoczności niektórych elementów interfejsu wpływa na doświadczenie użytkownika.
+
+---
+
+### 3.3 Dodatkowe Problemy Wykryte Podczas Testów
 Oprócz przypadków testowych zidentyfikowano następujące problemy:
-1. **Brak uzyskiwania uprawnień dostępu do plików/folderów**:  
-   - Aplikacja nie prosi użytkownika o uprawnienia dostępu, a także nie informuje o ich braku, co może powodować trudności przy przeglądaniu folderów.
-   - Przykład: Dla folderów bez uprawnień, aplikacja nie informuje użytkownika o braku dostępu.
-   
-2. **Problemy z usuwaniem folderów po ich przeglądaniu w SpaceDrive**:  
+1. **Problemy z usuwaniem folderów po ich przeglądaniu w SpaceDrive**:  
    - Folderów przeglądanych w aplikacji nie można usunąć (nawet jeśli nie są otwarte w innej aplikacji) do momentu zamknięcia okna SpaceDrive.
 
-3. **Brak aktualizacji nazw folderów w widoku „Locations”**:  
+2. **Brak aktualizacji nazw folderów w widoku „Locations”**:  
    - Zmiana nazwy folderu w innej aplikacji nie jest automatycznie aktualizowana w SpaceDrive.
 
-4. **Problemy z tagami**:  
+3. **Problemy z tagami**:  
    - Po utworzeniu nowego tagu dla pliku tag ten automatycznie przypisywany jest do folderu, w którym znajduje się plik.  
    - W widoku oznaczeń tagami widoczny jest tylko folder, ale otwarcie folderu w SpaceDrive powoduje otwarcie pliku w aplikacji domyślnej.
 
-5. **Brak informacji o rozmiarze folderów zawierających podfoldery**:  
+4. **Brak informacji o rozmiarze folderów zawierających podfoldery**:  
    - SpaceDrive nie pokazuje rozmiaru folderów, które mają zagnieżdżone podfoldery, co utrudnia ocenę zajętości miejsca.
 
 ---
 
 ## 4. Podsumowanie
 ### Wyniki:
-- **Liczba testów**: 27  
-- **Testy pozytywne**: 26  
-- **Testy negatywne**: 1  
+- **Liczba testów**: 26  
+- **Testy pozytywne**: 21  
+- **Testy negatywne**: 5  
 
 ### Krytyczne problemy:
 - **TC-SEC-PRIV-01**: Brak uzyskiwania uprawnień dostępu do plików.
