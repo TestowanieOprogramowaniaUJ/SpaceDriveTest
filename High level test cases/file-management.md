@@ -33,5 +33,5 @@
 ---
 
 ### TC-FILE-MGMT-06: Weryfikacja wydajności aplikacji przy dużych wolumenach danych
-**Cel:** Sprawdzić, czy aplikacja zachowuje wydajność przy obsłudze dużej ilości danych.  
+**Cel:** Sprawdzić, czy aplikacja zachowuje wydajność przy obsłudze dużej ilości danych, definiowanych jako zestaw minimum 1000 plików o łącznej wielkości przekraczającej 5 GB. Wydajność aplikacji jest mierzona czasem ładowania danych (maksymalnie 5 sekund dla wyświetlenia listy plików) oraz stabilnością aplikacji (brak crashy lub zauważalnych opóźnień).
 **Powiązane wymaganie:** REQ-NFUNC-05  
