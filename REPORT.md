@@ -141,7 +141,13 @@ Oprócz przypadków testowych zidentyfikowano następujące problemy:
 
 ---
 
-## 5. Podsumowanie
+## 5. Statystyki testów
+![ab066623-c8ff-4b80-86ea-91928f621868](https://github.com/user-attachments/assets/0d4c1e29-8f75-45e6-8378-a6b2ba5412af)
+![17df6799-aa44-4dd7-b7f1-a9fc74f96b6e](https://github.com/user-attachments/assets/cd4240e5-a8bf-4235-9e2d-adbee9d86f91)
+
+---
+
+## 6. Podsumowanie
 ### Wyniki:
 - **Liczba testów**: 26  
 - **Testy pozytywne**: 21  
@@ -153,6 +159,6 @@ Oprócz przypadków testowych zidentyfikowano następujące problemy:
 
 ---
 
-## 6. Wnioski
+## 7. Wnioski
 Testy aplikacji **Spacedrive** w większości zakończyły się sukcesem, potwierdzając poprawne działanie kluczowych funkcjonalności, takich jak synchronizacja, zarządzanie plikami oraz responsywność interfejsu. Wykryte problemy powinny zostać priorytetowo naprawione, aby poprawić zgodność aplikacji z wymaganiami użytkowników oraz standardami bezpieczeństwa.
 
