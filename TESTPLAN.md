@@ -41,7 +41,11 @@ Celem niniejszego planu testów jest zdefiniowanie podejścia, zasobów, harmono
   - Przenoszenie plików kończy się błędem w więcej niż 5% przypadków.  
 
 ## 8. Suspension Criteria and Resumption Requirements  
-- Testy zostaną zawieszone w przypadku poważnych problemów środowiskowych (np. brak zasobów sprzętowych).  
+- Testy zostaną zawieszone w przypadku wystąpienia poważnych problemów środowiskowych, takich jak:
+   - Brak dostępnych zasobów sprzętowych (np. serwery, pamięć, procesory).
+   - Krytyczne awarie infrastruktury (np. awarie sieci, systemów operacyjnych, bazy danych).
+   - Utrata dostępu do kluczowych środowisk testowych lub narzędzi.
+   - Przekroczenie limitów czasowych lub budżetowych uniemożliwiające kontynuację testów.
 - Testowanie zostanie wznowione po rozwiązaniu problemów, z priorytetem dla przypadków dotkniętych zawieszeniem.  
 
 ## 9. Test Deliverables  
