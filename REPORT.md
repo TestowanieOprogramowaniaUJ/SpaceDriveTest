@@ -17,7 +17,7 @@ Testy aplikacji **Spacedrive** miały na celu weryfikację funkcjonalności, wyd
 - **Michał Skrobot**:
 - **Adam Tytoń**: przygtowanie przypadków testowych i tester
 - **Oleksandr Stehura**: przygtowanie przypadków testowych i tester
-- **Imię Nazwisko**:
+- **Jakub Paczek**: przygtowanie przypadków testowych i tester
 
 ---
 
