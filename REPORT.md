@@ -13,7 +13,7 @@ Testy aplikacji **Spacedrive** miały na celu weryfikację funkcjonalności, wyd
   
 ### 2.1 Zakres obowiązków
 - **Michał Skrobot**: 
-- **Imię Nazwisko**: 
+- **Adam Tytoń**: przygtowanie przypadków testowych i tester
 - **Imię Nazwisko**:
 - **Imię Nazwisko**:
 
