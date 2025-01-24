@@ -14,7 +14,7 @@ Testy aplikacji **Spacedrive** miały na celu weryfikację funkcjonalności, wyd
 
 ### 2.1 Zakres obowiązków
 
-- **Michał Skrobot**:
+- **Michał Skrobot**: przygtowanie przypadków testowych, raportu z testów i tester
 - **Adam Tytoń**: przygtowanie przypadków testowych i tester
 - **Oleksandr Stehura**: przygtowanie przypadków testowych i tester
 - **Jakub Paczek**: przygtowanie przypadków testowych i tester
